@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Social component It should match DOM Snapshot 1`] = `
+<div>
+  <div>
+    <a
+      href=""
+    >
+      <i
+        class="sc-bcXHqe yIwqc fa fa-facebook-f fa-lg"
+        color="#000"
+        data-testid="colorIcon"
+      />
+    </a>
+    <a
+      href=""
+    >
+      <i
+        class="sc-bcXHqe yIwqc fa fa-twitter fa-lg"
+        color="#000"
+        data-testid="colorIcon"
+      />
+    </a>
+    <a
+      href=""
+    >
+      <i
+        class="sc-bcXHqe yIwqc fa fa-pinterest-p fa-lg"
+        color="#000"
+        data-testid="colorIcon"
+      />
+    </a>
+    <a
+      href=""
+    >
+      <i
+        class="sc-bcXHqe yIwqc fa fa-vimeo fa-lg"
+        color="#000"
+        data-testid="colorIcon"
+      />
+    </a>
+    <a
+      href=""
+    >
+      <i
+        class="sc-bcXHqe yIwqc fa fa-youtube fa-lg"
+        color="#000"
+        data-testid="colorIcon"
+      />
+    </a>
+  </div>
+</div>
+`;
