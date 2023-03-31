@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UserForm component It should render correctly with custom User Form Props 1`] = `
+<div>
+  <form
+    class="user-form"
+    data-testid="user-form"
+    method="post"
+  >
+    <h2
+      class="title"
+    >
+      Create new user
+    </h2>
+    <div
+      class="user-name"
+    >
+      <label
+        class="input-label"
+        for="name"
+      >
+        Name
+      </label>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          class="input undefined"
+          id="name"
+          minlength="6"
+          name="name"
+          placeholder="Enter name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="avatar-url"
+    >
+      <label
+        class="input-label"
+        for="avatar"
+      >
+        Avatar
+      </label>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          class="input undefined"
+          id="avatar"
+          name="avatar"
+          placeholder="Enter link avatar"
+          type="url"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="button-wrapper"
+    >
+      <a
+        class="btn-secondary cancel"
+        href="/"
+      >
+        Cancel
+      </a>
+      <button
+        class="btn-success"
+        type="submit"
+      >
+        <div
+          class="loader progress"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Test UserForm component It should render correctly with initial Props 1`] = `
+<div>
+  <form
+    class="user-form"
+    data-testid="user-form"
+    method="post"
+  >
+    <h2
+      class="title"
+    >
+      Create new user
+    </h2>
+    <div
+      class="user-name"
+    >
+      <label
+        class="input-label"
+        for="name"
+      >
+        Name
+      </label>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          class="input undefined"
+          id="name"
+          minlength="6"
+          name="name"
+          placeholder="Enter name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="avatar-url"
+    >
+      <label
+        class="input-label"
+        for="avatar"
+      >
+        Avatar
+      </label>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          class="input undefined"
+          id="avatar"
+          name="avatar"
+          placeholder="Enter link avatar"
+          type="url"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="button-wrapper"
+    >
+      <a
+        class="btn-secondary cancel"
+        href="/"
+      >
+        Cancel
+      </a>
+      <button
+        class="btn-success"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;

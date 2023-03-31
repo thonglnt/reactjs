@@ -1,0 +1,18 @@
+.content-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .content-wrapper {
+    justify-content: end;
+    margin-right: 18%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .content-wrapper {
+    justify-content: end;
+    margin-right: 10%;
+  }
+}

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ListTodo component It should render correctly with initial Props 1`] = `
+<div>
+  <ul
+    class="list-todo"
+  >
+    <li
+      class="todo-item"
+    >
+      <div
+        class="round"
+      >
+        <input
+          checked=""
+          type="checkbox"
+        />
+        <label
+          data-testid="check-done-todo"
+          for="checkbox"
+        />
+      </div>
+      <p
+        class="todo-task"
+      >
+        <s>
+          task 1
+        </s>
+      </p>
+      <img
+        alt="delete"
+        class="icon"
+        data-testid="delete-todo"
+        src="IMAGE_MOCK"
+      />
+    </li>
+    <li
+      class="todo-item"
+    >
+      <div
+        class="round"
+      >
+        <input
+          type="checkbox"
+        />
+        <label
+          data-testid="check-done-todo"
+          for="checkbox"
+        />
+      </div>
+      <p
+        class="todo-task"
+      >
+        task 1
+      </p>
+      <img
+        alt="delete"
+        class="icon"
+        data-testid="delete-todo"
+        src="IMAGE_MOCK"
+      />
+    </li>
+  </ul>
+</div>
+`;

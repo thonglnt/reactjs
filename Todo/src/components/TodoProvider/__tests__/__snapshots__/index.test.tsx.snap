@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TodoProvider component It should render correctly with initial Props 1`] = `
+<div>
+  <div>
+    User Provider
+  </div>
+</div>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TodoForm component It should render correctly with initial Props 1`] = `
+<div>
+  <h1
+    class="title todo-title"
+  >
+    todos
+  </h1>
+  <form
+    data-testid="form-todo"
+    method="post"
+  >
+    <div
+      class="add-todo"
+    >
+      <label
+        class="input-label"
+        for="task"
+      />
+      <div
+        class="input-wrapper"
+      >
+        <input
+          class="input input-lg"
+          id="task"
+          name="task"
+          placeholder="Add new todo"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="add-button"
+      >
+        <img
+          alt="add-todo"
+          class="add-icon"
+          src="IMAGE_MOCK"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

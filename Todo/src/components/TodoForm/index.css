@@ -1,0 +1,37 @@
+.add-button {
+  padding: 2px 8px;
+}
+
+.add-todo {
+  display: flex;
+}
+
+.add-icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.todo-title {
+  font-size: 70px;
+  color: var(--chinese-silver);
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 992px) {
+  .add-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .add-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .todo-title {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,48 @@
+.input-label {
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-wrapper {
+  display: inline-grid;
+}
+
+.input {
+  width: 200px;
+  height: 25px;
+  padding-left: 5px;
+  border-radius: 3px;
+  border: 1px solid var(--light-gray);
+}
+
+.input:focus {
+  outline-width: 0;
+  border: 1px solid var(--cadet-blue);
+}
+
+.err-msg {
+  padding-top: 3px;
+  color: var(--red);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input-lg {
+  width: 500px;
+  height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .input-lg {
+    width: 300px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .input-lg {
+    width: 200px;
+    height: 30px;
+  }
+}

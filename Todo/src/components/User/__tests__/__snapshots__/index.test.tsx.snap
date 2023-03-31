@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test User component It should match DOM Snapshot 1`] = `
+<div>
+  <li
+    class="className"
+    data-testid="selected-id-user"
+  >
+    <img
+      alt="Avatar"
+      class="avatar"
+      src="avatar"
+    />
+    thong
+    <div
+      class="loader icon"
+    />
+  </li>
+</div>
+`;
+
+exports[`Test User component It should render correctly with initial Props 1`] = `
+<div>
+  <li
+    class="className"
+    data-testid="selected-id-user"
+  >
+    <img
+      alt="Avatar"
+      class="avatar"
+      src="avatar"
+    />
+    thong
+    <img
+      alt="user name"
+      class="icon icon-delete"
+      data-testid="delete-user"
+      src="IMAGE_MOCK"
+    />
+  </li>
+</div>
+`;

@@ -1,0 +1,20 @@
+.user-form {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.user-name,
+.avatar-url {
+  padding-bottom: 20px;
+}
+
+.cancel {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}

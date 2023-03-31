@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UserSidebar component It should render correctly with initial Props 1`] = `
+<div>
+  <aside
+    class="sidebar-wrapper"
+  >
+    <h2
+      class="title sidebar-title"
+    >
+      List Users
+    </h2>
+    <ul
+      class="user-list"
+    >
+      <li
+        class="user-item"
+        data-testid="selected-id-user"
+      >
+        <img
+          alt="Avatar"
+          class="avatar"
+          src="https://haycafe.vn/wp-content/uploads/2022/03/Avatar-hai-1.jpg"
+        />
+        user1
+        <img
+          alt="user name"
+          class="icon icon-delete"
+          data-testid="delete-user"
+          src="IMAGE_MOCK"
+        />
+      </li>
+      <li
+        class="user-item"
+        data-testid="selected-id-user"
+      >
+        <img
+          alt="Avatar"
+          class="avatar"
+          src="https://tapchianhdep.com/wp-content/uploads/2021/05/hinh-avatar-hai-huoc-ngau.jpg"
+        />
+        user2
+        <img
+          alt="user name"
+          class="icon icon-delete"
+          data-testid="delete-user"
+          src="IMAGE_MOCK"
+        />
+      </li>
+      <li
+        class="user-item"
+        data-testid="selected-id-user"
+      >
+        <img
+          alt="Avatar"
+          class="avatar"
+          src="https://i.pinimg.com/736x/1c/44/41/1c444192c50fd9101640cdf99fd4a6c7.jpg"
+        />
+        user3
+        <img
+          alt="user name"
+          class="icon icon-delete"
+          data-testid="delete-user"
+          src="IMAGE_MOCK"
+        />
+      </li>
+      <li
+        class="user-item"
+        data-testid="selected-id-user"
+      >
+        <img
+          alt="Avatar"
+          class="avatar"
+          src="https://1.bp.blogspot.com/-Ada3siBi-Z8/YS3asSghKxI/AAAAAAABVSc/EJKXWlcxH1shPt6rWc-q3gxvSk2EdyZyACLcBGAsYHQ/s0/Avatar-con-viet-vang-ngau-Taihinhanh-Vn%2B%25286%2529.jpg"
+        />
+        user4
+        <img
+          alt="user name"
+          class="icon icon-delete"
+          data-testid="delete-user"
+          src="IMAGE_MOCK"
+        />
+      </li>
+    </ul>
+    <a
+      href="/register"
+    >
+      <button
+        class="button"
+      >
+        New user
+      </button>
+    </a>
+  </aside>
+</div>
+`;

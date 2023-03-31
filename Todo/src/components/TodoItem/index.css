@@ -1,0 +1,54 @@
+.todo-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid var(--light-gray);
+  padding-left: 20px;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: var(--white);
+  border: 1px solid var(--chinese-silver);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.round label:after {
+  border: 2px solid var(--mantis);
+  border-top: none;
+  border-right: none;
+  content: '';
+  height: 6px;
+  left: 5px;
+  opacity: 0;
+  position: absolute;
+  top: 5px;
+  transform: rotate(-45deg);
+  width: 9px;
+}
+
+.round input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.round input[type='checkbox']:checked + label {
+  border-color: var(--mantis);
+}
+
+.round input[type='checkbox']:checked + label:after {
+  opacity: 1;
+}
+
+.todo-task {
+  padding-left: 20px;
+}

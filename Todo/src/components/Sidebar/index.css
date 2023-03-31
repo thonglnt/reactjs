@@ -1,0 +1,19 @@
+.sidebar-wrapper {
+  width: 200px;
+  height: 100%;
+  background: var(--dark-charcoal);
+  padding: 30px 0px;
+  position: fixed;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar-wrapper {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar-wrapper {
+    width: 100px;
+  }
+}
