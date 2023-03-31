@@ -1,0 +1,25 @@
+.car-list {
+  display: grid;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+@media only screen and (min-width: 750px) {
+  .card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

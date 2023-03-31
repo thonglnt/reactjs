@@ -1,0 +1,25 @@
+.label {
+  display: grid;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: var(--size-s);
+  color: var(--color-dark);
+}
+
+.input {
+  height: 30px;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: var(--size-s);
+  padding-left: 0px;
+  border-radius: 8px;
+  border: 1px solid;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.error-msg {
+  display: block;
+  color: var(--color-warring);
+  padding-top: 5px;
+}

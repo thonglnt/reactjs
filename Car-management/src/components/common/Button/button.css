@@ -1,0 +1,34 @@
+.button {
+  color: var(--color-light);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: var(--size-s);
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:disabled {
+  background: #dddddd;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+}
+
+.btn-warning {
+  background-color: var(--color-warring);
+}
+
+.small {
+  width: 100px;
+}
+
+.large {
+  width: 160px;
+}

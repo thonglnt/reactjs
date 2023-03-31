@@ -1,0 +1,41 @@
+.card-body {
+  padding: 15px 15px;
+}
+
+.card {
+  width: 260px;
+  height: 488px;
+  border: 1px solid var(--color-outline);
+  box-shadow: 0 3px 2px var(--color-outline);
+  word-break: break-word;
+}
+
+.card-image {
+  width: 220px;
+  height: 250px;
+  display: flex;
+  margin: auto;
+}
+
+.car-name {
+  color: var(--color-dark);
+  font-size: var(--size-l);
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.brand-name,
+.quantity,
+.color {
+  display: block;
+  padding-top: 10px;
+  font-size: var(--size-s);
+  font-weight: 600;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}

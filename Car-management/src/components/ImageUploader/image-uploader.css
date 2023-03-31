@@ -1,0 +1,28 @@
+.uploader-title {
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: var(--size-s);
+}
+
+.uploader-content {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: var(--size-s);
+  padding-left: 0px;
+}
+
+.uploader-input {
+  width: 359px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.uploader {
+  padding-top: 15px;
+}
+
+.uploader-image {
+  width: 100px;
+  height: 130px;
+}

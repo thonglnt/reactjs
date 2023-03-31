@@ -1,0 +1,13 @@
+:root {
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-outline: #8e8e93;
+  --color-primary: #0033cc;
+  --color-secondary: #008000;
+  --color-warring: #b40404;
+  --size-xl: 42px;
+  --size-l: 25px;
+  --size-m: 18px;
+  --size-s: 16px;
+}
+

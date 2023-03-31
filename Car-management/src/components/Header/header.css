@@ -1,0 +1,11 @@
+.heading {
+  font-size: var(--size-xl);
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-layout {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
